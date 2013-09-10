@@ -1,0 +1,32 @@
+<h1>Boletines</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Título</th>
+      <th>Contenido</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @newsletters.each do |newsletter| %>
+      <tr>
+        <td><%= link_to newsletter.title, newsletter %></td>
+        <td><%= newsletter.content %></td>
+        <% if user_signed_in? -%>
+          <td><%= link_to 'Editar', edit_newsletter_path(newsletter) %></td>
+          <td><%= link_to 'Eliminar', newsletter, method: :delete, data: { confirm: 'Are you sure?' } %>
+        <%end-%>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<% if user_signed_in? -%>
+<%= link_to 'Nuevo Boletín', new_newsletter_path %>
+<%end-%>

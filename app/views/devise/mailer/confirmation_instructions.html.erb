@@ -1,0 +1,5 @@
+<p>Bienvenido <%= @email %>!</p>
+
+<p>Bienvenido al observatorio! Gracias por unirte. Puedes confirmar tu cuenta siguiendo el siguiente enlace.</p>
+
+<p><%= link_to 'Confirmar mi cuenta.', confirmation_url(@resource, :confirmation_token => @resource.confirmation_token) %></p>
