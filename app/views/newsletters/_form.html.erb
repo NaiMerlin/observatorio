@@ -10,7 +10,7 @@
       </ul>
     </div>
   <% end %>
-
+<% if user_signed_in? -%>
   <div class="field">
     <%= f.label :title, 'Título:'%><br>
     <%= f.text_field :title %>
@@ -22,4 +22,5 @@
   <div class="actions">
     <%= f.submit "Guardar" %>
   </div>
+<% end -%>
 <% end %>

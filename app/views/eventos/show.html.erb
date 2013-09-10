@@ -15,5 +15,7 @@
   <%= @evento.descripcion %>
 </p>
 
+<% if user_signed_in? -%>
 <%= link_to 'Editar', edit_evento_path(@evento) %> |
+<%end%>
 <%= link_to 'Atrás', eventos_path %>

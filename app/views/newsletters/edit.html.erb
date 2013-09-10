@@ -1,6 +1,12 @@
+
 <h1>Editar boletín</h1>
 
-<%= render 'form' %>
+<% if user_signed_in? -%>
+	<%= render 'form' %>
 
-<%= link_to 'Mostrar', @newsletter %> |
+	<%= link_to 'Mostrar', @newsletter %> |
+	<%= link_to 'Atrás', newsletters_path %>
+<% else %>
+<p> Lo sentimos solo usuarios registrados pueden editar boletines. </p>
 <%= link_to 'Atrás', newsletters_path %>
+<%end%>

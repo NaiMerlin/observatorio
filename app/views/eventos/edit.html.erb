@@ -1,6 +1,10 @@
 <h1>Editar evento</h1>
-
+<% if user_signed_in? -%>
 <%= render 'form' %>
 
 <%= link_to 'Mostrar', @evento %> |
 <%= link_to 'Atrás', eventos_path %>
+<% else %>
+<p> Lo sentimos solo usuarios registrados pueden editar eventos. </p>
+<%= link_to 'Atrás', newsletters_path %>
+<% end -%>
