@@ -1,9 +1,3 @@
-/* ==========================================================================
-Eduard's custom styles - main.css
-========================================================================== */
-/* ==========================================================================
-Ryan Fait's Sticky Footer
-========================================================================== */
 /* Recordar compensar footer-padding con wrapper-margin y push-height para cambiar el tamaño del footer */
 html, body {
 	height: 100% !important;

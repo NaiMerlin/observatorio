@@ -12,7 +12,7 @@
 
 <p>
   <strong>Descripción:</strong>
-  <%= @evento.descripcion %>
+  <%= raw @evento.descripcion %>
 </p>
 
 <% if user_signed_in? -%>

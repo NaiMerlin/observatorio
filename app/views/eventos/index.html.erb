@@ -17,7 +17,7 @@
       <tr>
         <td><%= link_to evento.titulo, evento %></td>
         <td><%= evento.fecha %></td>
-        <td><%= evento.descripcion %></td>
+        <td><%=raw summarize(evento.descripcion, 150) %></td>
         <% if user_signed_in? -%>
         <td><%= link_to 'Editar', edit_evento_path(evento) %></td>
         <td><%= link_to 'Eliminar', evento, method: :delete, data: { confirm: '¿Esta seguro?' } %></td>
@@ -29,5 +29,5 @@
 
 <br>
 <% if user_signed_in? -%>
-<%= link_to 'Nuevo Evento', new_evento_path %>
+<%= button_to 'Nuevo Evento', new_evento_path, :method => :get, :class => 'btn btn-large btn-success' %>
 <%end-%>

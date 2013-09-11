@@ -4,7 +4,7 @@ class EventosController < ApplicationController
   # GET /eventos
   # GET /eventos.json
   def index
-    @eventos = Evento.all
+    @eventos = Evento.all.sort_by(&:id).reverse
   end
 
   # GET /eventos/1
