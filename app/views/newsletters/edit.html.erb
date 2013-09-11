@@ -2,7 +2,7 @@
 <h1>Editar boletín</h1>
 
 <% if user_signed_in? -%>
-	<%= render 'form' %>
+	<%= raw render 'form' %>
 
 	<%= link_to 'Mostrar', @newsletter %> |
 	<%= link_to 'Atrás', newsletters_path %>

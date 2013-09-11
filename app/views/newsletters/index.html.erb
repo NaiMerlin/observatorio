@@ -15,10 +15,10 @@
     <% @newsletters.each do |newsletter| %>
       <tr>
         <td><%= link_to newsletter.title, newsletter %></td>
-        <td><%= newsletter.content %></td>
+        <td><%=raw summarize(newsletter.content, 250) %></td>
         <% if user_signed_in? -%>
           <td><%= link_to 'Editar', edit_newsletter_path(newsletter) %></td>
-          <td><%= link_to 'Eliminar', newsletter, method: :delete, data: { confirm: 'Are you sure?' } %>
+          <td><%= link_to 'Eliminar', newsletter, method: :delete, data: { confirm: '¿Seguro desea eliminar?' } %>
         <%end-%>
         </td>
       </tr>
@@ -28,5 +28,5 @@
 
 <br>
 <% if user_signed_in? -%>
-<%= link_to 'Nuevo Boletín', new_newsletter_path %>
+<%= button_to 'Nuevo Boletín', new_newsletter_path, :method => :get, :class => 'btn btn-large btn-success' %>
 <%end-%>

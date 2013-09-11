@@ -8,7 +8,7 @@
 <p>
   <strong>Contenido:</strong>
 </p>
-<p>  <%= @newsletter.content %>
+<p>  <%=raw @newsletter.content %>
 </p>
 
 <% if user_signed_in? -%>

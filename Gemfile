@@ -41,6 +41,8 @@ gem 'devise'
 #Form Bootstrap
 gem 'bootstrap_form'
 
+gem 'tinymce-rails'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
