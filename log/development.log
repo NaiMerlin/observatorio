@@ -49864,3 +49864,541 @@ Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.5ms)
 
 
 Started GET "/assets/Logop.jpg" for 127.0.0.1 at 2013-09-11 15:27:42 -0500
+
+
+Started GET "/eventos" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by EventosController#index as HTML
+  [1m[35mEvento Load (0.1ms)[0m  SELECT "eventos".* FROM "eventos"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered eventos/index.html.erb within layouts/application (36.5ms)
+Completed 200 OK in 433ms (Views: 400.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/css/main.css" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (15.4ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (53.7ms)
+
+
+Started GET "/assets/bootstrap_form.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/como_observamos.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:49 -0500
+
+
+Started GET "/assets/newsletters.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/nuestro.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/pagina.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/quienes_somos.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/como_observamos.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/newsletters.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/pagina.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/nuestro.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/quienes_somos.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/tinymce/preinit.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/tinymce/tinymce.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/tinymce.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/assets/Logop.jpg" for 127.0.0.1 at 2013-09-11 15:34:50 -0500
+
+
+Started GET "/eventos" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+Processing by EventosController#index as HTML
+  [1m[35mEvento Load (0.2ms)[0m  SELECT "eventos".* FROM "eventos"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered eventos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 116ms (Views: 114.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/css/main.css" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.7ms)
+
+
+Started GET "/assets/bootstrap_form.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/como_observamos.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/newsletters.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/nuestro.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/pagina.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/quienes_somos.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/como_observamos.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/newsletters.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/nuestro.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/pagina.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/quienes_somos.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/tinymce/preinit.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/tinymce/tinymce.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/tinymce.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/assets/Logop.jpg" for 127.0.0.1 at 2013-09-11 15:35:33 -0500
+
+
+Started GET "/eventos" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+Processing by EventosController#index as HTML
+  [1m[35mEvento Load (0.2ms)[0m  SELECT "eventos".* FROM "eventos"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered eventos/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 106ms (Views: 103.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/css/main.css" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/main.css"):
+  actionpack (4.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `block in call'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.0) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.0) lib/rails/rack/logger.rb:21:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.0) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.0) lib/action_dispatch/middleware/static.rb:64:in `call'
+  railties (4.0.0) lib/rails/engine.rb:511:in `call'
+  railties (4.0.0) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/naimerlin/.rvm/rubies/ruby-1.9.3-p448/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/naimerlin/.rvm/gems/ruby-1.9.3-p448/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (35.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/bootstrap.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/bootstrap_form.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter-bootstrap-static/fontawesome.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/como_observamos.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/eventos.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/nuestro.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/newsletters.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/pagina.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/quienes_somos.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/como_observamos.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/nuestro.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/newsletters.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/eventos.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/pagina.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/quienes_somos.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/tinymce/preinit.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/tinymce/tinymce.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/tinymce.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-09-11 15:36:21 -0500
+
+
+Started GET "/assets/Logop.jpg" for 127.0.0.1 at 2013-09-11 15:36:22 -0500

@@ -79,10 +79,11 @@ footer {
 	width: 100%;
 }
 footer a {
-	color: #999;
+	color: #999 !important;
 }
 footer a:hover {
-	color: #efefef;
+	color: #efefef !important;
+	background-color: #000 !important;
 }
 .wrapper {
 	background-color: #f6f6f6;
